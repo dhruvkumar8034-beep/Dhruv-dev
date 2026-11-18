@@ -1,0 +1,17 @@
+{
+  "name": "dhruv-dev-portfolio",
+  "version": "1.0.0",
+  "description": "Dhruv.dev - High-performance developer portfolio web app",
+  "scripts": {
+    "build": "echo 'Static portfolio ready for deployment'",
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "dhruv",
+    "web-app"
+  ],
+  "author": "Dhruv",
+  "license": "MIT"
+}

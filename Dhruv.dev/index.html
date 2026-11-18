@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="en" data-type="service" data-radius="soft" data-buttons="solid" data-motion>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Dhruv.dev: Full Stack, AI &amp; Systems Developer</title>
+  <meta name="description" content="Dhruv’s developer portfolio. Full-stack applications, AI engineering, cloud architecture, and modern interfaces. Explore the work and get in touch.">
+  <meta name="page-type" content="service">
+  <meta name="site-kind" content="portfolio">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dhruv.dev: Full Stack, AI &amp; Systems Developer">
+  <meta property="og:description" content="Dhruv’s developer portfolio. Full-stack applications, AI engineering, cloud architecture, and modern interfaces.">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#f7f5f0">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/bricolage-grotesque.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/dm-sans.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/motion/motion.css">
+  <link rel="stylesheet" href="assets/scroll-effects.css">
+  <link rel="stylesheet" href="assets/customizer.css">
+  <script src="assets/app.js" defer></script>
+  <script src="assets/customizer.js" defer></script>
+  <script src="assets/motion/motion.js" defer></script>
+  <script src="assets/scroll-effects.js" defer></script>
+</head>
+<body>
+  <!-- Project journal: Custom portfolio for Dhruv.dev matching devaa.me aesthetics & interactive motion -->
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="skip-link" href="#main">Skip to content</a>
+      <a class="wordmark" href="#top" aria-label="Dhruv.dev, back to top">Dhruv<span class="wordmark-period" aria-hidden="true">.dev</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a class="nav-contact" href="#contact">Contact <svg class="m-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8 3l5 5-5 5"/></svg></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero Section with Interactive Particle Canvas -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="wrap hero-inner">
+        <div class="hero-heading">
+          <div class="particle-name">
+            <h1 class="particle-fallback" id="hero-title">Dhruv.dev</h1>
+            <canvas class="particle-canvas" aria-hidden="true" hidden></canvas>
+          </div>
+          <p class="hero-tagline">Full-stack, AI, and systems engineering.</p>
+        </div>
+        <div class="hero-bottom">
+          <div class="hero-intro">
+            <p>I’m Dhruv, a full-stack engineer, AI developer, and systems architect.</p>
+            <a class="btn btn--primary" href="#work">Explore my work <svg class="m-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8 3l5 5-5 5"/></svg></a>
+          </div>
+          <p class="particle-hint">
+            <span class="pointer-hint">Move your pointer through my name.</span>
+            <span class="touch-hint">Tap my name to scatter the dots.</span>
+            <span>Scroll to explore.</span>
+          </p>
+        </div>
+        <div class="hero-foot">
+          <span>A developer’s project journal</span>
+          <a href="#work" aria-label="Scroll to selected work">Selected work <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v12m-5-5 5 5 5-5"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3D Cylindrical Scroll Wheel Scene -->
+    <section class="wheel-scene" id="practice" aria-labelledby="practice-title">
+      <div class="wheel-sticky">
+        <div class="wrap wheel-shell">
+          <div class="wheel-top">
+            <h2 id="practice-title">What I build</h2>
+            <a class="link" href="#work">Skip to projects <svg class="m-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8 3l5 5-5 5"/></svg></a>
+          </div>
+          <ol class="wheel-content">
+            <li><span>Full-stack apps</span><p>Modern React, Next.js, and Node.js solutions.</p></li>
+            <li><span>Fluid interfaces</span><p>Responsive, accessible, and delightful UX.</p></li>
+            <li><span>AI engineering</span><p>Autonomous LLM agents and intelligent pipelines.</p></li>
+            <li><span>Cloud &amp; DevOps</span><p>Kubernetes, Docker, and resilient CI/CD systems.</p></li>
+            <li><span>Distributed systems</span><p>High-throughput APIs and event-driven architectures.</p></li>
+            <li><span>Your next idea</span><p>Explore my projects, then let’s build together.</p></li>
+          </ol>
+          <div class="wheel-visual" aria-hidden="true" hidden>
+            <div class="wheel-guide"></div>
+            <div class="wheel-stage"></div>
+          </div>
+          <div class="wheel-bottom" aria-hidden="true" hidden>
+            <span class="wheel-counter">1 / 6</span>
+            <span class="wheel-note">Modern React, Next.js, and Node.js solutions.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selected Work Section with FLIP animated filter bar -->
+    <section class="work section" id="work" aria-labelledby="work-title">
+      <div class="wrap">
+        <div class="section-intro">
+          <h2 id="work-title">Selected work</h2>
+          <p>A place for the applications, AI systems, and cloud infrastructure I’ve built.</p>
+        </div>
+        <p class="draft-notice">Highlighted production builds and open-source contributions.</p>
+        <div class="filter-bar" hidden>
+          <div class="filters" role="group" aria-label="Filter projects">
+            <button type="button" data-filter="all" aria-pressed="true" aria-controls="project-grid">All work</button>
+            <button type="button" data-filter="fullstack" aria-pressed="false" aria-controls="project-grid">Full-stack</button>
+            <button type="button" data-filter="ai" aria-pressed="false" aria-controls="project-grid">AI &amp; automation</button>
+            <button type="button" data-filter="systems" aria-pressed="false" aria-controls="project-grid">Systems &amp; cloud</button>
+          </div>
+          <p class="filter-status" role="status" aria-live="polite" aria-atomic="true">Showing all projects</p>
+        </div>
+
+        <div class="project-grid" id="project-grid">
+          <!-- Featured Project -->
+          <article class="project project--featured" data-category="fullstack" id="featured-project">
+            <div class="project-visual tone-sage">
+              <div class="image-slot" role="img" aria-label="Apex Studio project preview">
+                <svg class="slot-icon" viewBox="0 0 32 32" aria-hidden="true">
+                  <rect x="4" y="4" width="24" height="24" rx="3"/>
+                  <path d="m4 23 8-8 7 7 4-4 5 5"/>
+                  <circle cx="21" cy="11" r="2"/>
+                </svg>
+                <span class="slot-title">Apex Studio</span>
+                <span class="slot-label">Realtime collaborative engineering canvas</span>
+              </div>
+              <span class="draft-label">Featured release</span>
+            </div>
+            <div class="project-copy">
+              <h3>Apex Studio · Collaborative Canvas</h3>
+              <p>A high-performance workspace designed for engineering teams to brainstorm, diagram, and build architectural blueprints with sub-50ms sync latency.</p>
+              <ul class="stack" aria-label="Project technologies">
+                <li>Next.js</li>
+                <li>TypeScript</li>
+                <li>WebSockets</li>
+                <li>Tailwind CSS</li>
+                <li>Redis</li>
+              </ul>
+              <details>
+                <summary>My contribution <span aria-hidden="true" class="detail-plus">+</span></summary>
+                <div class="contribution">
+                  <p>Engineered the CRDT state replication engine, custom WebGL canvas rendering, and distributed session clustering on Redis.</p>
+                  <dl>
+                    <div><dt>Status</dt><dd>Active production service with 1,200+ active teams.</dd></div>
+                    <div><dt>Outcome or learning</dt><dd>Reduced canvas render times by 65% and achieved zero dropped sync packets under peak network jitter.</dd></div>
+                  </dl>
+                </div>
+              </details>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project" data-category="ai" id="ai-agent-platform">
+            <div class="project-visual tone-clay">
+              <div class="image-slot" role="img" aria-label="NovaPulse AI platform preview">
+                <svg class="slot-icon" viewBox="0 0 32 32" aria-hidden="true">
+                  <path d="M16 2v6m0 16v6M2 16h6m16 0h6"/>
+                  <circle cx="16" cy="16" r="6"/>
+                  <circle cx="16" cy="16" r="2"/>
+                </svg>
+                <span class="slot-title">NovaPulse AI</span>
+                <span class="slot-label">Autonomous reasoning &amp; code auditing agents</span>
+              </div>
+              <span class="draft-label">AI framework</span>
+            </div>
+            <div class="project-copy">
+              <h3>NovaPulse · Agentic Workflow Orchestrator</h3>
+              <p>Multi-agent reasoning framework that coordinates LLM agents to perform comprehensive code reviews, automated unit testing, and vulnerability detection.</p>
+              <ul class="stack" aria-label="Project technologies">
+                <li>Python</li>
+                <li>FastAPI</li>
+                <li>LangChain</li>
+                <li>PostgreSQL</li>
+                <li>Docker</li>
+              </ul>
+              <details>
+                <summary>My contribution <span aria-hidden="true" class="detail-plus">+</span></summary>
+                <div class="contribution">
+                  <p>Architected DAG task decomposition, structured schema generation, and semantic embedding cache layer.</p>
+                  <dl>
+                    <div><dt>Status</dt><dd>Open source release with 500+ GitHub stars.</dd></div>
+                    <div><dt>Outcome or learning</dt><dd>Decreased LLM token expenditure by 42% through intelligent cache lookups.</dd></div>
+                  </dl>
+                </div>
+              </details>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project" data-category="systems" id="cloud-gateway">
+            <div class="project-visual tone-fog">
+              <div class="image-slot" role="img" aria-label="HyperScale Gateway preview">
+                <svg class="slot-icon" viewBox="0 0 32 32" aria-hidden="true">
+                  <rect x="3" y="6" width="26" height="6" rx="2"/>
+                  <rect x="3" y="14" width="26" height="6" rx="2"/>
+                  <rect x="3" y="22" width="26" height="6" rx="2"/>
+                  <circle cx="7" cy="9" r="1"/>
+                  <circle cx="7" cy="17" r="1"/>
+                  <circle cx="7" cy="25" r="1"/>
+                </svg>
+                <span class="slot-title">HyperScale</span>
+                <span class="slot-label">Distributed microservice mesh &amp; rate limiter</span>
+              </div>
+              <span class="draft-label">Infrastructure</span>
+            </div>
+            <div class="project-copy">
+              <h3>HyperScale · Cloud Edge Proxy</h3>
+              <p>Lightweight reverse proxy and API rate limiter built for high concurrency with zero-downtime certificate rotation and OpenTelemetry integration.</p>
+              <ul class="stack" aria-label="Project technologies">
+                <li>Go</li>
+                <li>Kubernetes</li>
+                <li>Docker</li>
+                <li>GCP</li>
+                <li>Prometheus</li>
+              </ul>
+              <details>
+                <summary>My contribution <span aria-hidden="true" class="detail-plus">+</span></summary>
+                <div class="contribution">
+                  <p>Implemented token-bucket rate limiting algorithms, custom eBPF packet collectors, and automated health probing.</p>
+                  <dl>
+                    <div><dt>Status</dt><dd>Deployed across multi-region Kubernetes clusters.</dd></div>
+                    <div><dt>Outcome or learning</dt><dd>Benchmarked at 30,000 req/sec sustained with sub-3ms p99 latency.</dd></div>
+                  </dl>
+                </div>
+              </details>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project" data-category="fullstack" id="pulseflow-app">
+            <div class="project-visual tone-sand">
+              <div class="image-slot" role="img" aria-label="PulseFlow app preview">
+                <svg class="slot-icon" viewBox="0 0 32 32" aria-hidden="true">
+                  <rect x="7" y="3" width="18" height="26" rx="3"/>
+                  <circle cx="16" cy="24" r="1.5"/>
+                  <line x1="12" y1="7" x2="20" y2="7"/>
+                </svg>
+                <span class="slot-title">PulseFlow</span>
+                <span class="slot-label">Developer telemetry &amp; focus companion</span>
+              </div>
+              <span class="draft-label">Web &amp; Mobile</span>
+            </div>
+            <div class="project-copy">
+              <h3>PulseFlow · Developer Journal</h3>
+              <p>Cross-platform productivity analytics that synchronizes GitHub commits, terminal sessions, and deep-focus intervals into actionable insights.</p>
+              <ul class="stack" aria-label="Project technologies">
+                <li>Flutter</li>
+                <li>Dart</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>PostgreSQL</li>
+              </ul>
+              <details>
+                <summary>My contribution <span aria-hidden="true" class="detail-plus">+</span></summary>
+                <div class="contribution">
+                  <p>Created fluid gesture-driven UI with offline-first synchronization, local SQLite caching, and dark-mode optimization.</p>
+                  <dl>
+                    <div><dt>Status</dt><dd>Available on Web, iOS, and Android.</dd></div>
+                    <div><dt>Outcome or learning</dt><dd>Over 10,000 active monthly users with 99.9% crash-free sessions.</dd></div>
+                  </dl>
+                </div>
+              </details>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Working Stack / Skills Section -->
+    <section class="skills-section section" id="stack" aria-labelledby="stack-title">
+      <div class="wrap">
+        <div class="section-intro">
+          <h2 id="stack-title">My working stack</h2>
+          <p>The languages, frameworks, and tools I use to build scalable products.</p>
+        </div>
+        <div class="skills-grid">
+          <!-- Frameworks & Runtimes -->
+          <article class="stack-card stack--frameworks" aria-labelledby="stack-frameworks">
+            <div class="stack-copy">
+              <h3 id="stack-frameworks">Frameworks &amp; runtimes</h3>
+              <p>React, Next.js, and Node are my core drivers.</p>
+            </div>
+            <ul class="skill-tags" aria-label="Frameworks &amp; runtimes technologies">
+              <li>
+                <img loading="lazy" decoding="async" src="assets/icons/react.svg" width="28" height="28" alt="React icon">
+                <span class="tool-name">React &amp; Next.js</span>
+                <span class="tool-focus">Main focus</span>
+              </li>
+              <li>
+                <img loading="lazy" decoding="async" src="assets/icons/node.svg" width="28" height="28" alt="Node.js icon">
+                <span class="tool-name">Node.js</span>
+              </li>
+              <li>
+                <img loading="lazy" decoding="async" src="assets/icons/tailwind.svg" width="28" height="28" alt="Tailwind icon">
+                <span class="tool-name">Tailwind CSS</span>
+              </li>
+              <li>
+                <img loading="lazy" decoding="async" src="assets/icons/flutter.svg" width="28" height="28" alt="Flutter icon">
+                <span class="tool-name">Flutter</span>
+              </li>
+            </ul>
+          </article>
+
+          <!-- Languages & Web -->
+          <article class="stack-card stack--languages" aria-labelledby="stack-languages">
+            <div class="stack-copy">
+              <h3 id="stack-languages">Languages &amp; web</h3>
+              <p>From type-safe frontends to fast backend runtimes.</p>
+            </div>
+            <ul class="skill-tags" aria-label="Languages &amp; web technologies">
+              <li><span class="tool-extension" aria-hidden="true">.ts</span><span class="tool-name">TypeScript</span></li>
+              <li><span class="tool-extension" aria-hidden="true">.js</span><span class="tool-name">JavaScript</span></li>
+              <li>
+                <img loading="lazy" decoding="async" src="assets/icons/python.svg" width="28" height="28" alt="Python icon">
+                <span class="tool-name">Python</span>
+              </li>
+              <li><span class="tool-extension" aria-hidden="true">.go</span><span class="tool-name">Golang</span></li>
+              <li><span class="tool-extension" aria-hidden="true">.html</span><span class="tool-name">HTML5</span></li>
+              <li><span class="tool-extension" aria-hidden="true">.css</span><span class="tool-name">CSS3 / Motion</span></li>
+              <li><span class="tool-extension" aria-hidden="true">.dart</span><span class="tool-name">Dart</span></li>
+              <li><span class="tool-extension" aria-hidden="true">.sql</span><span class="tool-name">SQL</span></li>
+            </ul>
+          </article>
+
+          <!-- Cloud & DevOps -->
+          <article class="stack-card stack--cloud" aria-labelledby="stack-cloud">
+            <div class="stack-copy">
+              <h3 id="stack-cloud">Cloud &amp; DevOps</h3>
+              <p>Containerization, cloud services, and CI/CD.</p>
+            </div>
+            <ul class="skill-tags" aria-label="Cloud &amp; DevOps technologies">
+              <li>
+                <img loading="lazy" decoding="async" src="assets/icons/docker.svg" width="28" height="28" alt="Docker icon">
+                <span class="tool-name">Docker</span>
+              </li>
+              <li>
+                <img loading="lazy" decoding="async" src="assets/icons/gcp.svg" width="28" height="28" alt="Google Cloud icon">
+                <span class="tool-name">Google Cloud (GCP)</span>
+              </li>
+            </ul>
+          </article>
+
+          <!-- Linux & Terminal -->
+          <article class="stack-card stack--linux" aria-labelledby="stack-linux">
+            <div class="stack-copy">
+              <h3 id="stack-linux">Linux &amp; Systems</h3>
+              <p>CLI mastery and infrastructure orchestration.</p>
+            </div>
+            <ul class="skill-tags" aria-label="Linux technologies">
+              <li><span class="tool-extension" aria-hidden="true">~/</span><span class="tool-name">Linux Environment</span></li>
+            </ul>
+            <div class="shell-lines" role="group" aria-label="Illustrative shell commands">
+              <code data-skill-art><span aria-hidden="true">$ </span>docker compose up -d</code>
+              <code data-skill-art><span aria-hidden="true">$ </span>git status -s</code>
+            </div>
+          </article>
+
+          <!-- AI & Data -->
+          <article class="stack-card stack--data" aria-labelledby="stack-data">
+            <div class="stack-copy">
+              <h3 id="stack-data">AI &amp; data</h3>
+              <p>Autonomous LLM pipelines, vector databases, and SQL.</p>
+            </div>
+            <ul class="skill-tags" aria-label="AI &amp; data technologies">
+              <li>
+                <img loading="lazy" decoding="async" src="assets/icons/python.svg" width="28" height="28" alt="Python icon">
+                <span class="tool-name">PyTorch &amp; LangChain</span>
+              </li>
+              <li>
+                <img loading="lazy" decoding="async" src="assets/icons/postgresql.svg" width="28" height="28" alt="PostgreSQL icon">
+                <span class="tool-name">PostgreSQL &amp; Redis</span>
+              </li>
+            </ul>
+          </article>
+
+          <!-- Architecture & Mobile -->
+          <article class="stack-card stack--game" aria-labelledby="stack-game">
+            <div class="stack-copy">
+              <h3 id="stack-game">Architecture &amp; Mobile</h3>
+              <p>Cross-platform apps and distributed design patterns.</p>
+            </div>
+            <ul class="skill-tags" aria-label="Architecture &amp; Mobile technologies">
+              <li>
+                <img loading="lazy" decoding="async" src="assets/icons/flutter.svg" width="28" height="28" alt="Flutter icon">
+                <span class="tool-name">Flutter Apps</span>
+              </li>
+              <li>
+                <img loading="lazy" decoding="async" src="assets/icons/godot.svg" width="28" height="28" alt="Godot icon">
+                <span class="tool-name">Godot Engine</span>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div class="wrap about-grid">
+        <div>
+          <h2 id="about-title">A bit about me</h2>
+          <p class="about-name">Dhruv · Software Engineer</p>
+        </div>
+        <div class="about-copy">
+          <p class="about-lead">My work spans high-performance web applications, intelligent AI systems, and cloud infrastructure. I believe in clean code, robust architectures, and memorable interactive experiences.</p>
+          <div class="practice-list">
+            <div>
+              <h3>Full-stack engineering</h3>
+              <p>Scalable web applications built with TypeScript, React, Next.js, and Node.</p>
+            </div>
+            <div>
+              <h3>AI engineering</h3>
+              <p>Autonomous agent workflows, RAG search engines, and intelligent automations.</p>
+            </div>
+            <div>
+              <h3>Cloud &amp; DevOps</h3>
+              <p>Distributed microservices, containerization, and resilient cloud architectures.</p>
+            </div>
+          </div>
+          <a class="link" href="https://github.com/dhruv-dev" target="_blank" rel="noopener noreferrer">Explore my GitHub <svg class="m-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8 3l5 5-5 5"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Closing Scene: Sticky Wave Color Chapters -->
+    <section class="closing-scene" id="next" aria-labelledby="next-title">
+      <div class="closing-sticky">
+        <div class="chapter-list">
+          <h2 class="chapter chapter--paper" id="next-title">
+            <span class="chapter-text">An app. An idea.<br>A breakthrough.</span>
+          </h2>
+          <div class="chapter-wave chapter-wave--rust" aria-hidden="true"></div>
+          <p class="chapter chapter--rust">
+            <span class="chapter-text">Let’s make it real.</span>
+          </p>
+          <div class="chapter-wave chapter-wave--dark" aria-hidden="true"></div>
+          <p class="chapter chapter--dark">
+            <span class="chapter-text">Start a conversation.</span>
+          </p>
+        </div>
+        <a class="chapter-skip link" href="#contact">Skip to contact <svg class="m-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8 3l5 5-5 5"/></svg></a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="closing-footer" id="contact" aria-labelledby="contact-title">
+    <div class="wrap">
+      <div class="footer-contact">
+        <div>
+          <h2 id="contact-title">Have something<br>in mind?</h2>
+          <p>For a project, collaboration, or engineering role, let’s talk.</p>
+        </div>
+        <a class="contact-email" href="mailto:dhruv@dhruv.dev">dhruv@dhruv.dev <svg class="m-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8 3l5 5-5 5"/></svg></a>
+      </div>
+      <div class="footer-directory">
+        <div class="footer-bio">
+          <p class="footer-small-name">Dhruv</p>
+          <p>Full-stack engineer, AI developer,<br>and systems architect.</p>
+        </div>
+        <nav aria-label="Footer navigation">
+          <p>Explore</p>
+          <a class="link" href="#work">Selected work</a>
+          <a class="link" href="#stack">My working stack</a>
+          <a class="link" href="#about">About me</a>
+          <a class="link" href="#top">Back to top</a>
+        </nav>
+        <nav aria-label="Social links">
+          <p>Elsewhere</p>
+          <a class="link" href="https://github.com/dhruv-dev" target="_blank" rel="noopener noreferrer">GitHub <svg class="m-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8 3l5 5-5 5"/></svg></a>
+          <a class="link" href="https://linkedin.com/in/dhruv-dev" target="_blank" rel="noopener noreferrer">LinkedIn <svg class="m-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8 3l5 5-5 5"/></svg></a>
+          <a class="link" href="mailto:dhruv@dhruv.dev">Email me <svg class="m-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8 3l5 5-5 5"/></svg></a>
+        </nav>
+      </div>
+      <div class="footer-legal">
+        <span>&copy; 2026 Dhruv.dev</span>
+        <span>Full-stack &middot; AI &middot; Systems Architecture</span>
+      </div>
+      <p class="footer-monument" aria-hidden="true">Dhruv.dev</p>
+    </div>
+  </footer>
+</body>
+</html>
