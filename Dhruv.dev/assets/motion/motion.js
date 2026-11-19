@@ -26,6 +26,8 @@
     preventDefault().
   Under prefers-reduced-motion: no entrance, no indicator travel, no tick, no loops, no restart.
 */
+(function () {
+'use strict';
 const html = document.documentElement;
 const reducedQ = matchMedia('(prefers-reduced-motion: reduce)');
 const reduced = () => reducedQ.matches;
@@ -404,3 +406,4 @@ window.Motion = { init, refresh: init };
 
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init, { once: true });
 else init();
+})();

@@ -3,85 +3,139 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Dhruv.dev: Full Stack, AI &amp; Systems Developer</title>
-  <meta name="description" content="Dhruv’s developer portfolio. Full-stack applications, AI engineering, cloud architecture, and modern interfaces. Explore the work and get in touch.">
+  <title>Dhruv Kumar — Digital Creator, Web Developer &amp; Designer</title>
+  <meta name="description" content="Dhruv Kumar’s portfolio. Web Development, Creative Design, WordPress, and Video Editing. Building digital experiences that make an impact. Based in Lucknow, India.">
   <meta name="page-type" content="service">
   <meta name="site-kind" content="portfolio">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Dhruv.dev: Full Stack, AI &amp; Systems Developer">
-  <meta property="og:description" content="Dhruv’s developer portfolio. Full-stack applications, AI engineering, cloud architecture, and modern interfaces.">
-  <meta name="twitter:card" content="summary">
-  <meta name="theme-color" content="#f7f5f0">
+  <meta property="og:title" content="Dhruv Kumar — Digital Creator, Web Developer &amp; Designer">
+  <meta property="og:description" content="Creating Ideas. Building Experiences. Making an Impact. Explore selected web projects, creative designs, and video edits.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#f8fafc">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preload" href="assets/fonts/bricolage-grotesque.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/dm-sans.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="assets/styles.css">
   <link rel="stylesheet" href="assets/motion/motion.css">
   <link rel="stylesheet" href="assets/scroll-effects.css">
+  <link rel="stylesheet" href="assets/luxury-theme.css">
   <link rel="stylesheet" href="assets/customizer.css">
   <script src="assets/app.js" defer></script>
   <script src="assets/customizer.js" defer></script>
+  <script src="assets/interactive-enhancements.js" defer></script>
+  <script src="assets/profile-data.js" defer></script>
+  <script src="assets/profile-particles.js" defer></script>
   <script src="assets/motion/motion.js" defer></script>
   <script src="assets/scroll-effects.js" defer></script>
 </head>
 <body>
-  <!-- Project journal: Custom portfolio for Dhruv.dev matching devaa.me aesthetics & interactive motion -->
+  <!-- Navigation Bar -->
   <header class="nav">
     <div class="wrap nav-inner">
       <a class="skip-link" href="#main">Skip to content</a>
-      <a class="wordmark" href="#top" aria-label="Dhruv.dev, back to top">Dhruv<span class="wordmark-period" aria-hidden="true">.dev</span></a>
+      <a class="wordmark" href="#top" aria-label="Dhruv Kumar, back to top">
+        Dhruv Kumar<span class="wordmark-period" aria-hidden="true">.</span>
+      </a>
       <nav aria-label="Main navigation">
         <a href="#work">Work</a>
+        <a href="#capabilities">What I Do</a>
+        <a href="#skills">Skills</a>
         <a href="#about">About</a>
-        <a class="nav-contact" href="#contact">Contact <svg class="m-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8 3l5 5-5 5"/></svg></a>
+        <a class="nav-contact" href="#contact">Get In Touch <svg class="m-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8 3l5 5-5 5"/></svg></a>
       </nav>
     </div>
   </header>
 
   <main id="main">
-    <!-- Hero Section with Interactive Particle Canvas -->
+    <!-- Hero Section with Interactive Glowing Particle Canvas -->
     <section class="hero" id="top" aria-labelledby="hero-title">
       <div class="wrap hero-inner">
         <div class="hero-heading">
-          <div class="particle-name">
-            <h1 class="particle-fallback" id="hero-title">Dhruv.dev</h1>
-            <canvas class="particle-canvas" aria-hidden="true" hidden></canvas>
+          <div class="hero-brand-header">
+            <!-- Dhruv Kumar Profile Portrait with Interactive Particle Dispersion -->
+            <div class="hero-profile-container">
+              <div class="profile-interactive-card" id="profile-particle-card">
+                <div class="profile-canvas-wrapper" id="profile-wrapper" title="Hover to scatter photo particles">
+                  <img src="assets/profile.jpg" alt="Dhruv Kumar" class="profile-static-img" id="profile-img">
+                  <canvas class="profile-particle-canvas" id="profile-canvas" aria-hidden="true"></canvas>
+                  <div class="profile-glass-badge">
+                    <span class="pulse-status-dot"></span>
+                    <span class="pulse-text">Dhruv Kumar</span>
+                  </div>
+                </div>
+                <div class="profile-interactive-hint">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 14l5-5-5-5"/><path d="M4 20v-7a4 4 0 0 1 4-4h12"/></svg>
+                  <span>Hover photo to scatter dots ✨</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-name-wrap">
+              <div class="particle-name">
+                <h1 class="particle-fallback" id="hero-title">Dhruv Kumar</h1>
+                <canvas class="particle-canvas" aria-hidden="true" hidden></canvas>
+              </div>
+              <p class="hero-tagline">Building Digital Experiences That Make an Impact.</p>
+            </div>
           </div>
-          <p class="hero-tagline">Full-stack, AI, and systems engineering.</p>
         </div>
         <div class="hero-bottom">
           <div class="hero-intro">
-            <p>I’m Dhruv, a full-stack engineer, AI developer, and systems architect.</p>
-            <a class="btn btn--primary" href="#work">Explore my work <svg class="m-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8 3l5 5-5 5"/></svg></a>
+            <p>I’m Dhruv Kumar, a Multi-Disciplinary Digital Creator passionate about Web Development, Creative Design, and Digital Experiences. I turn ideas into meaningful digital solutions through creativity, technology, and continuous learning.</p>
+            <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+              <a class="btn btn--primary" href="#work">Explore My Work <svg class="m-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8 3l5 5-5 5"/></svg></a>
+              <a class="link" href="#contact" style="display: inline-flex; align-items: center; gap: 6px; font-weight: 600; color: var(--ink);">Let’s Connect <svg class="m-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8 3l5 5-5 5"/></svg></a>
+            </div>
           </div>
           <p class="particle-hint">
-            <span class="pointer-hint">Move your pointer through my name.</span>
-            <span class="touch-hint">Tap my name to scatter the dots.</span>
-            <span>Scroll to explore.</span>
+            <span class="pointer-hint">Hover or swipe through my name to scatter the dots.</span>
+            <span class="touch-hint">Tap my name to trigger a shockwave.</span>
+            <span>📍 Based in Lucknow, India.</span>
           </p>
         </div>
+
+        <!-- Metrics / Highlights Strip -->
+        <div class="metrics-strip">
+          <div class="metric-item">
+            <span class="metric-number" data-counter-target="5" data-counter-suffix="+">0</span>
+            <span class="metric-label">Core Disciplines</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-number" data-counter-target="100" data-counter-suffix="%">0</span>
+            <span class="metric-label">Responsive &amp; Mobile-Ready</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-number" style="font-size: clamp(22px, 2.4vw, 32px); color: var(--accent);">Lucknow</span>
+            <span class="metric-label">Location Base (India)</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-number" style="font-size: clamp(22px, 2.4vw, 32px); color: var(--accent);">Creative</span>
+            <span class="metric-label">Design &amp; Technology</span>
+          </div>
+        </div>
+
         <div class="hero-foot">
-          <span>A developer’s project journal</span>
+          <span>Personal Portfolio &amp; Digital Journal</span>
           <a href="#work" aria-label="Scroll to selected work">Selected work <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v12m-5-5 5 5 5-5"/></svg></a>
         </div>
       </div>
     </section>
 
-    <!-- 3D Cylindrical Scroll Wheel Scene -->
-    <section class="wheel-scene" id="practice" aria-labelledby="practice-title">
+    <!-- 3D Cylindrical Scroll Wheel Scene: Capabilities -->
+    <section class="wheel-scene" id="capabilities" aria-labelledby="capabilities-title">
       <div class="wheel-sticky">
         <div class="wrap wheel-shell">
           <div class="wheel-top">
-            <h2 id="practice-title">What I build</h2>
+            <h2 id="capabilities-title">What I Do</h2>
             <a class="link" href="#work">Skip to projects <svg class="m-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8 3l5 5-5 5"/></svg></a>
           </div>
           <ol class="wheel-content">
-            <li><span>Full-stack apps</span><p>Modern React, Next.js, and Node.js solutions.</p></li>
-            <li><span>Fluid interfaces</span><p>Responsive, accessible, and delightful UX.</p></li>
-            <li><span>AI engineering</span><p>Autonomous LLM agents and intelligent pipelines.</p></li>
-            <li><span>Cloud &amp; DevOps</span><p>Kubernetes, Docker, and resilient CI/CD systems.</p></li>
-            <li><span>Distributed systems</span><p>High-throughput APIs and event-driven architectures.</p></li>
-            <li><span>Your next idea</span><p>Explore my projects, then let’s build together.</p></li>
+            <li><span>Web Development</span><p>Responsive, modern, user-friendly websites with focus on design and code.</p></li>
+            <li><span>Graphic Design</span><p>Posters, banners, thumbnails, and visual assets that communicate effectively.</p></li>
+            <li><span>WordPress</span><p>Customizing websites using WordPress &amp; Elementor with responsive layouts.</p></li>
+            <li><span>Video Editing</span><p>Engaging video content, reels, and digital storytelling for campaigns.</p></li>
+            <li><span>Social Media</span><p>Creative digital assets and strategies to elevate online brand engagement.</p></li>
+            <li><span>Your Next Idea</span><p>Have a project in mind? Let’s create something great together.</p></li>
           </ol>
           <div class="wheel-visual" aria-hidden="true" hidden>
             <div class="wheel-guide"></div>
@@ -89,176 +143,171 @@
           </div>
           <div class="wheel-bottom" aria-hidden="true" hidden>
             <span class="wheel-counter">1 / 6</span>
-            <span class="wheel-note">Modern React, Next.js, and Node.js solutions.</span>
+            <span class="wheel-note">Responsive, modern, user-friendly websites with focus on design and code.</span>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Selected Work Section with FLIP animated filter bar -->
+    <!-- Selected Work Section: Real Projects from docx -->
     <section class="work section" id="work" aria-labelledby="work-title">
       <div class="wrap">
         <div class="section-intro">
-          <h2 id="work-title">Selected work</h2>
-          <p>A place for the applications, AI systems, and cloud infrastructure I’ve built.</p>
+          <h2 id="work-title">Featured Projects</h2>
+          <p>A collection of projects where creativity meets technology.</p>
         </div>
-        <p class="draft-notice">Highlighted production builds and open-source contributions.</p>
+        <p class="draft-notice">Curated digital platforms, web concepts, brand creatives, and media storytelling.</p>
+        
         <div class="filter-bar" hidden>
           <div class="filters" role="group" aria-label="Filter projects">
             <button type="button" data-filter="all" aria-pressed="true" aria-controls="project-grid">All work</button>
-            <button type="button" data-filter="fullstack" aria-pressed="false" aria-controls="project-grid">Full-stack</button>
-            <button type="button" data-filter="ai" aria-pressed="false" aria-controls="project-grid">AI &amp; automation</button>
-            <button type="button" data-filter="systems" aria-pressed="false" aria-controls="project-grid">Systems &amp; cloud</button>
+            <button type="button" data-filter="web" aria-pressed="false" aria-controls="project-grid">Web &amp; WordPress</button>
+            <button type="button" data-filter="design" aria-pressed="false" aria-controls="project-grid">Creative Design</button>
+            <button type="button" data-filter="media" aria-pressed="false" aria-controls="project-grid">Video &amp; Media</button>
           </div>
           <p class="filter-status" role="status" aria-live="polite" aria-atomic="true">Showing all projects</p>
         </div>
 
         <div class="project-grid" id="project-grid">
-          <!-- Featured Project -->
-          <article class="project project--featured" data-category="fullstack" id="featured-project">
+          <!-- Featured Project 1: Sport Gyaan -->
+          <article class="project project--featured" data-category="web" id="sport-gyaan">
             <div class="project-visual tone-sage">
-              <div class="image-slot" role="img" aria-label="Apex Studio project preview">
+              <div class="image-slot" role="img" aria-label="Sport Gyaan platform preview">
+                <svg class="slot-icon" viewBox="0 0 32 32" aria-hidden="true">
+                  <circle cx="16" cy="16" r="12"/>
+                  <path d="M16 4a12 12 0 0 1 0 24M4 16h24M7.5 7.5l17 17M7.5 24.5l17-17"/>
+                </svg>
+                <span class="slot-title">Sport Gyaan</span>
+                <span class="slot-label">Sports Digital Content &amp; Media Hub</span>
+              </div>
+              <span class="draft-label">Featured platform</span>
+            </div>
+            <div class="project-copy">
+              <h3>Sport Gyaan · Sports Media Platform</h3>
+              <p>A sports-focused digital platform designed to bring sports content, news, match analysis, and live updates together in one cohesive, engaging hub for fans.</p>
+              <ul class="stack" aria-label="Project technologies">
+                <li>Web Development</li>
+                <li>Responsive UI</li>
+                <li>Content Architecture</li>
+                <li>WordPress</li>
+              </ul>
+              <details>
+                <summary>Project Highlights <span aria-hidden="true" class="detail-plus">+</span></summary>
+                <div class="contribution">
+                  <p>Designed the user-friendly interface, structured categorical sports feeds, and optimized mobile reading performance for real-time sports updates.</p>
+                  <dl>
+                    <div><dt>Platform Type</dt><dd>Active sports information &amp; content ecosystem.</dd></div>
+                    <div><dt>Core Focus</dt><dd>Fast page delivery, structured news layout, and clean typography.</dd></div>
+                  </dl>
+                </div>
+              </details>
+            </div>
+          </article>
+
+          <!-- Project 2: Personal Web Projects -->
+          <article class="project" data-category="web" id="personal-web-projects">
+            <div class="project-visual tone-clay">
+              <div class="image-slot" role="img" aria-label="Personal web projects preview">
+                <svg class="slot-icon" viewBox="0 0 32 32" aria-hidden="true">
+                  <rect x="4" y="5" width="24" height="22" rx="3"/>
+                  <line x1="4" y1="12" x2="28" y2="12"/>
+                  <circle cx="8" cy="8.5" r="1"/>
+                  <circle cx="12" cy="8.5" r="1"/>
+                  <circle cx="16" cy="8.5" r="1"/>
+                </svg>
+                <span class="slot-title">Personal Web Projects</span>
+                <span class="slot-label">Interactive Concepts &amp; Modern Layouts</span>
+              </div>
+              <span class="draft-label">Web concepts</span>
+            </div>
+            <div class="project-copy">
+              <h3>Personal Web Projects</h3>
+              <p>Modern and responsive website concepts built to explore web technologies, innovative UI layouts, micro-interactions, and accessible user experiences.</p>
+              <ul class="stack" aria-label="Project technologies">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Tailwind CSS</li>
+                <li>Bootstrap</li>
+              </ul>
+              <details>
+                <summary>Project Highlights <span aria-hidden="true" class="detail-plus">+</span></summary>
+                <div class="contribution">
+                  <p>Engineered responsive web templates with fluid typography, modern CSS grid/flexbox layouts, and custom JavaScript animations.</p>
+                  <dl>
+                    <div><dt>Status</dt><dd>Continuous creative development &amp; experimentation.</dd></div>
+                    <div><dt>Focus</dt><dd>Cross-browser compatibility, mobile-first design, and clean semantics.</dd></div>
+                  </dl>
+                </div>
+              </details>
+            </div>
+          </article>
+
+          <!-- Project 3: Creative Designs -->
+          <article class="project" data-category="design" id="creative-designs">
+            <div class="project-visual tone-fog">
+              <div class="image-slot" role="img" aria-label="Creative graphic designs preview">
                 <svg class="slot-icon" viewBox="0 0 32 32" aria-hidden="true">
                   <rect x="4" y="4" width="24" height="24" rx="3"/>
                   <path d="m4 23 8-8 7 7 4-4 5 5"/>
-                  <circle cx="21" cy="11" r="2"/>
+                  <circle cx="21" cy="11" r="2.5"/>
                 </svg>
-                <span class="slot-title">Apex Studio</span>
-                <span class="slot-label">Realtime collaborative engineering canvas</span>
+                <span class="slot-title">Creative Designs</span>
+                <span class="slot-label">Posters, Banners &amp; Social Creatives</span>
               </div>
-              <span class="draft-label">Featured release</span>
+              <span class="draft-label">Graphic design</span>
             </div>
             <div class="project-copy">
-              <h3>Apex Studio · Collaborative Canvas</h3>
-              <p>A high-performance workspace designed for engineering teams to brainstorm, diagram, and build architectural blueprints with sub-50ms sync latency.</p>
+              <h3>Creative Designs &amp; Brand Assets</h3>
+              <p>A collection of social media graphics, promotional posters, event banners, and high-CTR thumbnail designs tailored to communicate ideas with visual impact.</p>
               <ul class="stack" aria-label="Project technologies">
-                <li>Next.js</li>
-                <li>TypeScript</li>
-                <li>WebSockets</li>
-                <li>Tailwind CSS</li>
-                <li>Redis</li>
+                <li>Graphic Design</li>
+                <li>Social Media Design</li>
+                <li>Thumbnails</li>
+                <li>Poster Art</li>
               </ul>
               <details>
-                <summary>My contribution <span aria-hidden="true" class="detail-plus">+</span></summary>
+                <summary>Project Highlights <span aria-hidden="true" class="detail-plus">+</span></summary>
                 <div class="contribution">
-                  <p>Engineered the CRDT state replication engine, custom WebGL canvas rendering, and distributed session clustering on Redis.</p>
+                  <p>Crafted high-contrast visual compositions, typography hierarchy, and engaging color palettes for digital marketing and social media accounts.</p>
                   <dl>
-                    <div><dt>Status</dt><dd>Active production service with 1,200+ active teams.</dd></div>
-                    <div><dt>Outcome or learning</dt><dd>Reduced canvas render times by 65% and achieved zero dropped sync packets under peak network jitter.</dd></div>
+                    <div><dt>Deliverables</dt><dd>Social media posts, promotional banners, and custom YouTube/video thumbnails.</dd></div>
+                    <div><dt>Outcome</dt><dd>Stronger visual identity and measurable boosts in click-through engagement.</dd></div>
                   </dl>
                 </div>
               </details>
             </div>
           </article>
 
-          <!-- Project 2 -->
-          <article class="project" data-category="ai" id="ai-agent-platform">
-            <div class="project-visual tone-clay">
-              <div class="image-slot" role="img" aria-label="NovaPulse AI platform preview">
-                <svg class="slot-icon" viewBox="0 0 32 32" aria-hidden="true">
-                  <path d="M16 2v6m0 16v6M2 16h6m16 0h6"/>
-                  <circle cx="16" cy="16" r="6"/>
-                  <circle cx="16" cy="16" r="2"/>
-                </svg>
-                <span class="slot-title">NovaPulse AI</span>
-                <span class="slot-label">Autonomous reasoning &amp; code auditing agents</span>
-              </div>
-              <span class="draft-label">AI framework</span>
-            </div>
-            <div class="project-copy">
-              <h3>NovaPulse · Agentic Workflow Orchestrator</h3>
-              <p>Multi-agent reasoning framework that coordinates LLM agents to perform comprehensive code reviews, automated unit testing, and vulnerability detection.</p>
-              <ul class="stack" aria-label="Project technologies">
-                <li>Python</li>
-                <li>FastAPI</li>
-                <li>LangChain</li>
-                <li>PostgreSQL</li>
-                <li>Docker</li>
-              </ul>
-              <details>
-                <summary>My contribution <span aria-hidden="true" class="detail-plus">+</span></summary>
-                <div class="contribution">
-                  <p>Architected DAG task decomposition, structured schema generation, and semantic embedding cache layer.</p>
-                  <dl>
-                    <div><dt>Status</dt><dd>Open source release with 500+ GitHub stars.</dd></div>
-                    <div><dt>Outcome or learning</dt><dd>Decreased LLM token expenditure by 42% through intelligent cache lookups.</dd></div>
-                  </dl>
-                </div>
-              </details>
-            </div>
-          </article>
-
-          <!-- Project 3 -->
-          <article class="project" data-category="systems" id="cloud-gateway">
-            <div class="project-visual tone-fog">
-              <div class="image-slot" role="img" aria-label="HyperScale Gateway preview">
-                <svg class="slot-icon" viewBox="0 0 32 32" aria-hidden="true">
-                  <rect x="3" y="6" width="26" height="6" rx="2"/>
-                  <rect x="3" y="14" width="26" height="6" rx="2"/>
-                  <rect x="3" y="22" width="26" height="6" rx="2"/>
-                  <circle cx="7" cy="9" r="1"/>
-                  <circle cx="7" cy="17" r="1"/>
-                  <circle cx="7" cy="25" r="1"/>
-                </svg>
-                <span class="slot-title">HyperScale</span>
-                <span class="slot-label">Distributed microservice mesh &amp; rate limiter</span>
-              </div>
-              <span class="draft-label">Infrastructure</span>
-            </div>
-            <div class="project-copy">
-              <h3>HyperScale · Cloud Edge Proxy</h3>
-              <p>Lightweight reverse proxy and API rate limiter built for high concurrency with zero-downtime certificate rotation and OpenTelemetry integration.</p>
-              <ul class="stack" aria-label="Project technologies">
-                <li>Go</li>
-                <li>Kubernetes</li>
-                <li>Docker</li>
-                <li>GCP</li>
-                <li>Prometheus</li>
-              </ul>
-              <details>
-                <summary>My contribution <span aria-hidden="true" class="detail-plus">+</span></summary>
-                <div class="contribution">
-                  <p>Implemented token-bucket rate limiting algorithms, custom eBPF packet collectors, and automated health probing.</p>
-                  <dl>
-                    <div><dt>Status</dt><dd>Deployed across multi-region Kubernetes clusters.</dd></div>
-                    <div><dt>Outcome or learning</dt><dd>Benchmarked at 30,000 req/sec sustained with sub-3ms p99 latency.</dd></div>
-                  </dl>
-                </div>
-              </details>
-            </div>
-          </article>
-
-          <!-- Project 4 -->
-          <article class="project" data-category="fullstack" id="pulseflow-app">
+          <!-- Project 4: Video & Content Projects -->
+          <article class="project" data-category="media" id="video-content-projects">
             <div class="project-visual tone-sand">
-              <div class="image-slot" role="img" aria-label="PulseFlow app preview">
+              <div class="image-slot" role="img" aria-label="Video editing projects preview">
                 <svg class="slot-icon" viewBox="0 0 32 32" aria-hidden="true">
-                  <rect x="7" y="3" width="18" height="26" rx="3"/>
-                  <circle cx="16" cy="24" r="1.5"/>
-                  <line x1="12" y1="7" x2="20" y2="7"/>
+                  <polygon points="12 9 23 16 12 23 12 9"/>
+                  <rect x="3" y="4" width="26" height="24" rx="4"/>
                 </svg>
-                <span class="slot-title">PulseFlow</span>
-                <span class="slot-label">Developer telemetry &amp; focus companion</span>
+                <span class="slot-title">Video &amp; Content Projects</span>
+                <span class="slot-label">Reels, Promos &amp; Storytelling</span>
               </div>
-              <span class="draft-label">Web &amp; Mobile</span>
+              <span class="draft-label">Video &amp; Media</span>
             </div>
             <div class="project-copy">
-              <h3>PulseFlow · Developer Journal</h3>
-              <p>Cross-platform productivity analytics that synchronizes GitHub commits, terminal sessions, and deep-focus intervals into actionable insights.</p>
+              <h3>Video &amp; Digital Content Projects</h3>
+              <p>Creative video edits, promotional content, high-retention short-form reels, and visual storytelling crafted for digital campaigns and social media presence.</p>
               <ul class="stack" aria-label="Project technologies">
-                <li>Flutter</li>
-                <li>Dart</li>
-                <li>React</li>
-                <li>Node.js</li>
-                <li>PostgreSQL</li>
+                <li>Video Editing</li>
+                <li>Reels &amp; Shorts</li>
+                <li>Promotional Videos</li>
+                <li>Digital Storytelling</li>
               </ul>
               <details>
-                <summary>My contribution <span aria-hidden="true" class="detail-plus">+</span></summary>
+                <summary>Project Highlights <span aria-hidden="true" class="detail-plus">+</span></summary>
                 <div class="contribution">
-                  <p>Created fluid gesture-driven UI with offline-first synchronization, local SQLite caching, and dark-mode optimization.</p>
+                  <p>Edited dynamic short-form videos with custom pacing, audio syncing, captions, visual effects, and storytelling flow.</p>
                   <dl>
-                    <div><dt>Status</dt><dd>Available on Web, iOS, and Android.</dd></div>
-                    <div><dt>Outcome or learning</dt><dd>Over 10,000 active monthly users with 99.9% crash-free sessions.</dd></div>
+                    <div><dt>Formats</dt><dd>Instagram Reels, YouTube Shorts, and promotional teasers.</dd></div>
+                    <div><dt>Result</dt><dd>High audience retention and polished visual storytelling.</dd></div>
                   </dl>
                 </div>
               </details>
@@ -268,158 +317,172 @@
       </div>
     </section>
 
-    <!-- Working Stack / Skills Section -->
-    <section class="skills-section section" id="stack" aria-labelledby="stack-title">
+    <!-- Skills & Toolkit Section: Straight from docx Section 04 -->
+    <section class="skills-section section" id="skills" aria-labelledby="skills-title">
       <div class="wrap">
         <div class="section-intro">
-          <h2 id="stack-title">My working stack</h2>
-          <p>The languages, frameworks, and tools I use to build scalable products.</p>
+          <h2 id="skills-title">My Skills &amp; Toolkit</h2>
+          <p>The tools and disciplines I use to craft digital experiences.</p>
         </div>
         <div class="skills-grid">
-          <!-- Frameworks & Runtimes -->
-          <article class="stack-card stack--frameworks" aria-labelledby="stack-frameworks">
+          <!-- Web Development Card -->
+          <article class="stack-card stack--frameworks" aria-labelledby="stack-web">
             <div class="stack-copy">
-              <h3 id="stack-frameworks">Frameworks &amp; runtimes</h3>
-              <p>React, Next.js, and Node are my core drivers.</p>
+              <h3 id="stack-web">Web Development</h3>
+              <p>Responsive, clean frontend &amp; CMS development.</p>
             </div>
-            <ul class="skill-tags" aria-label="Frameworks &amp; runtimes technologies">
+            <ul class="skill-tags" aria-label="Web development technologies">
               <li>
-                <img loading="lazy" decoding="async" src="assets/icons/react.svg" width="28" height="28" alt="React icon">
-                <span class="tool-name">React &amp; Next.js</span>
-                <span class="tool-focus">Main focus</span>
+                <span class="tool-extension" aria-hidden="true">&lt;/&gt;</span>
+                <span class="tool-name">HTML5 &amp; CSS3</span>
+                <span class="tool-focus">Core</span>
               </li>
               <li>
-                <img loading="lazy" decoding="async" src="assets/icons/node.svg" width="28" height="28" alt="Node.js icon">
-                <span class="tool-name">Node.js</span>
+                <span class="tool-extension" aria-hidden="true">.js</span>
+                <span class="tool-name">JavaScript</span>
               </li>
               <li>
-                <img loading="lazy" decoding="async" src="assets/icons/tailwind.svg" width="28" height="28" alt="Tailwind icon">
-                <span class="tool-name">Tailwind CSS</span>
+                <span class="tool-extension" aria-hidden="true">#</span>
+                <span class="tool-name">Bootstrap &amp; Tailwind CSS</span>
               </li>
               <li>
-                <img loading="lazy" decoding="async" src="assets/icons/flutter.svg" width="28" height="28" alt="Flutter icon">
-                <span class="tool-name">Flutter</span>
+                <span class="tool-extension" aria-hidden="true">WP</span>
+                <span class="tool-name">WordPress &amp; Elementor</span>
               </li>
             </ul>
           </article>
 
-          <!-- Languages & Web -->
-          <article class="stack-card stack--languages" aria-labelledby="stack-languages">
+          <!-- Creative Design Card -->
+          <article class="stack-card stack--languages" aria-labelledby="stack-creative">
             <div class="stack-copy">
-              <h3 id="stack-languages">Languages &amp; web</h3>
-              <p>From type-safe frontends to fast backend runtimes.</p>
+              <h3 id="stack-creative">Creative Design</h3>
+              <p>Visual content that communicates ideas effectively.</p>
             </div>
-            <ul class="skill-tags" aria-label="Languages &amp; web technologies">
-              <li><span class="tool-extension" aria-hidden="true">.ts</span><span class="tool-name">TypeScript</span></li>
-              <li><span class="tool-extension" aria-hidden="true">.js</span><span class="tool-name">JavaScript</span></li>
-              <li>
-                <img loading="lazy" decoding="async" src="assets/icons/python.svg" width="28" height="28" alt="Python icon">
-                <span class="tool-name">Python</span>
-              </li>
-              <li><span class="tool-extension" aria-hidden="true">.go</span><span class="tool-name">Golang</span></li>
-              <li><span class="tool-extension" aria-hidden="true">.html</span><span class="tool-name">HTML5</span></li>
-              <li><span class="tool-extension" aria-hidden="true">.css</span><span class="tool-name">CSS3 / Motion</span></li>
-              <li><span class="tool-extension" aria-hidden="true">.dart</span><span class="tool-name">Dart</span></li>
-              <li><span class="tool-extension" aria-hidden="true">.sql</span><span class="tool-name">SQL</span></li>
+            <ul class="skill-tags" aria-label="Creative design skills">
+              <li><span class="tool-extension" aria-hidden="true">🎨</span><span class="tool-name">Graphic Design</span></li>
+              <li><span class="tool-extension" aria-hidden="true">📱</span><span class="tool-name">Social Media Creatives</span></li>
+              <li><span class="tool-extension" aria-hidden="true">🎬</span><span class="tool-name">Video Editing &amp; Reels</span></li>
+              <li><span class="tool-extension" aria-hidden="true">🖼️</span><span class="tool-name">Thumbnail Design</span></li>
+              <li><span class="tool-extension" aria-hidden="true">✨</span><span class="tool-name">Visual Storytelling</span></li>
+              <li><span class="tool-extension" aria-hidden="true">📐</span><span class="tool-name">Posters &amp; Banners</span></li>
             </ul>
           </article>
 
-          <!-- Cloud & DevOps -->
-          <article class="stack-card stack--cloud" aria-labelledby="stack-cloud">
+          <!-- Strategy & Modern Tools -->
+          <article class="stack-card stack--cloud" aria-labelledby="stack-other">
             <div class="stack-copy">
-              <h3 id="stack-cloud">Cloud &amp; DevOps</h3>
-              <p>Containerization, cloud services, and CI/CD.</p>
+              <h3 id="stack-other">Digital &amp; AI Tools</h3>
+              <p>Modern workflows and digital strategies.</p>
             </div>
-            <ul class="skill-tags" aria-label="Cloud &amp; DevOps technologies">
+            <ul class="skill-tags" aria-label="Digital workflows">
               <li>
-                <img loading="lazy" decoding="async" src="assets/icons/docker.svg" width="28" height="28" alt="Docker icon">
-                <span class="tool-name">Docker</span>
+                <span class="tool-extension" aria-hidden="true">📱</span>
+                <span class="tool-name">Responsive Web Design</span>
               </li>
               <li>
-                <img loading="lazy" decoding="async" src="assets/icons/gcp.svg" width="28" height="28" alt="Google Cloud icon">
-                <span class="tool-name">Google Cloud (GCP)</span>
-              </li>
-            </ul>
-          </article>
-
-          <!-- Linux & Terminal -->
-          <article class="stack-card stack--linux" aria-labelledby="stack-linux">
-            <div class="stack-copy">
-              <h3 id="stack-linux">Linux &amp; Systems</h3>
-              <p>CLI mastery and infrastructure orchestration.</p>
-            </div>
-            <ul class="skill-tags" aria-label="Linux technologies">
-              <li><span class="tool-extension" aria-hidden="true">~/</span><span class="tool-name">Linux Environment</span></li>
-            </ul>
-            <div class="shell-lines" role="group" aria-label="Illustrative shell commands">
-              <code data-skill-art><span aria-hidden="true">$ </span>docker compose up -d</code>
-              <code data-skill-art><span aria-hidden="true">$ </span>git status -s</code>
-            </div>
-          </article>
-
-          <!-- AI & Data -->
-          <article class="stack-card stack--data" aria-labelledby="stack-data">
-            <div class="stack-copy">
-              <h3 id="stack-data">AI &amp; data</h3>
-              <p>Autonomous LLM pipelines, vector databases, and SQL.</p>
-            </div>
-            <ul class="skill-tags" aria-label="AI &amp; data technologies">
-              <li>
-                <img loading="lazy" decoding="async" src="assets/icons/python.svg" width="28" height="28" alt="Python icon">
-                <span class="tool-name">PyTorch &amp; LangChain</span>
+                <span class="tool-extension" aria-hidden="true">💡</span>
+                <span class="tool-name">UI/UX Fundamentals</span>
               </li>
               <li>
-                <img loading="lazy" decoding="async" src="assets/icons/postgresql.svg" width="28" height="28" alt="PostgreSQL icon">
-                <span class="tool-name">PostgreSQL &amp; Redis</span>
+                <span class="tool-extension" aria-hidden="true">🔍</span>
+                <span class="tool-name">SEO Fundamentals</span>
+              </li>
+              <li>
+                <span class="tool-extension" aria-hidden="true">🤖</span>
+                <span class="tool-name">AI Tools &amp; Workflows</span>
               </li>
             </ul>
           </article>
 
-          <!-- Architecture & Mobile -->
-          <article class="stack-card stack--game" aria-labelledby="stack-game">
-            <div class="stack-copy">
-              <h3 id="stack-game">Architecture &amp; Mobile</h3>
-              <p>Cross-platform apps and distributed design patterns.</p>
+          <!-- Interactive Creator Terminal Card -->
+          <article class="terminal-card">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="terminal-dot dot--red"></span>
+                <span class="terminal-dot dot--yellow"></span>
+                <span class="terminal-dot dot--green"></span>
+              </div>
+              <span class="terminal-title">dhruv@lucknow:~ (creator-toolkit)</span>
+              <div class="terminal-tabs">
+                <button type="button" class="terminal-tab is-active" data-tab="system">Overview</button>
+                <button type="button" class="terminal-tab" data-tab="docker">Web &amp; WP</button>
+                <button type="button" class="terminal-tab" data-tab="git">Design</button>
+                <button type="button" class="terminal-tab" data-tab="ai">Workflow</button>
+              </div>
             </div>
-            <ul class="skill-tags" aria-label="Architecture &amp; Mobile technologies">
-              <li>
-                <img loading="lazy" decoding="async" src="assets/icons/flutter.svg" width="28" height="28" alt="Flutter icon">
-                <span class="tool-name">Flutter Apps</span>
-              </li>
-              <li>
-                <img loading="lazy" decoding="async" src="assets/icons/godot.svg" width="28" height="28" alt="Godot icon">
-                <span class="tool-name">Godot Engine</span>
-              </li>
-            </ul>
+            <div class="terminal-body">
+              <div class="terminal-line"><span class="t-prompt">dhruv@creator:~$</span> <span class="t-cmd">cat profile.json</span></div>
+              <div class="t-output"><span class="t-highlight">"name":</span> "Dhruv Kumar"</div>
+              <div class="t-output"><span class="t-highlight">"role":</span> "Multi-Disciplinary Digital Creator"</div>
+              <div class="t-output"><span class="t-highlight">"location":</span> "Lucknow, India"</div>
+              <div class="t-output"><span class="t-highlight">"tagline":</span> "Creating Ideas. Building Experiences. Making an Impact."</div>
+              <div class="t-output"><span class="t-highlight">"skills":</span> ["Web Development", "Graphic Design", "WordPress", "Video Editing"]</div>
+              <div class="t-output"><span class="t-success">● Current Status:</span> Available for creative collaborations &amp; web projects</div>
+            </div>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- About Section -->
+    <!-- Workflow Section: 06 from docx -->
+    <section class="section" style="background: #ffffff; border-top: 1px solid var(--rule);" id="workflow">
+      <div class="wrap">
+        <div class="section-intro">
+          <h2>How I Approach Every Project</h2>
+          <p>A structured, creative process from initial concept to polished execution.</p>
+        </div>
+        <div class="skills-grid" style="margin-top: var(--s-6);">
+          <div class="stack-card" style="grid-column: span 3; border-radius: 12px; padding: 22px;">
+            <span style="font-size: 28px; font-weight: 700; color: var(--accent); font-family: var(--font-display);">01</span>
+            <h3 style="font-size: 20px; margin-top: 8px;">Understand</h3>
+            <p style="font-size: 14px; color: var(--muted); margin-top: 6px; line-height: 1.5;">Understanding the idea, goals, audience, and core requirements.</p>
+          </div>
+          <div class="stack-card" style="grid-column: span 3; border-radius: 12px; padding: 22px;">
+            <span style="font-size: 28px; font-weight: 700; color: var(--accent); font-family: var(--font-display);">02</span>
+            <h3 style="font-size: 20px; margin-top: 8px;">Plan</h3>
+            <p style="font-size: 14px; color: var(--muted); margin-top: 6px; line-height: 1.5;">Creating a clear direction, wireframe, and visual approach.</p>
+          </div>
+          <div class="stack-card" style="grid-column: span 3; border-radius: 12px; padding: 22px;">
+            <span style="font-size: 28px; font-weight: 700; color: var(--accent); font-family: var(--font-display);">03</span>
+            <h3 style="font-size: 20px; margin-top: 8px;">Create</h3>
+            <p style="font-size: 14px; color: var(--muted); margin-top: 6px; line-height: 1.5;">Turning concepts into functional, creative, and responsive solutions.</p>
+          </div>
+          <div class="stack-card" style="grid-column: span 3; border-radius: 12px; padding: 22px;">
+            <span style="font-size: 28px; font-weight: 700; color: var(--accent); font-family: var(--font-display);">04</span>
+            <h3 style="font-size: 20px; margin-top: 8px;">Improve</h3>
+            <p style="font-size: 14px; color: var(--muted); margin-top: 6px; line-height: 1.5;">Refining the work through testing, feedback, and continuous improvement.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section: 02 from docx -->
     <section class="about section" id="about" aria-labelledby="about-title">
       <div class="wrap about-grid">
         <div>
-          <h2 id="about-title">A bit about me</h2>
-          <p class="about-name">Dhruv · Software Engineer</p>
+          <h2 id="about-title">About Me</h2>
+          <p class="about-name">Dhruv Kumar · Lucknow, India</p>
         </div>
         <div class="about-copy">
-          <p class="about-lead">My work spans high-performance web applications, intelligent AI systems, and cloud infrastructure. I believe in clean code, robust architectures, and memorable interactive experiences.</p>
+          <p class="about-lead">I’m Dhruv Kumar, a passionate digital creator with an interest in technology, design, and innovation. I enjoy building websites, creating engaging visual designs, and exploring new ways to bring ideas to life.</p>
+          <p style="color: var(--muted); font-size: 17px; line-height: 1.7; margin-top: 18px;">
+            My approach combines creativity with technical thinking. Whether it’s developing a website, designing social media graphics, or editing videos, I focus on creating work that is visually appealing, functional, and meaningful. I’m constantly learning, experimenting, and improving my skills to grow as a digital professional.
+          </p>
           <div class="practice-list">
             <div>
-              <h3>Full-stack engineering</h3>
-              <p>Scalable web applications built with TypeScript, React, Next.js, and Node.</p>
+              <h3>Web Development</h3>
+              <p>Responsive, modern websites built with clean code and intuitive user interfaces.</p>
             </div>
             <div>
-              <h3>AI engineering</h3>
-              <p>Autonomous agent workflows, RAG search engines, and intelligent automations.</p>
+              <h3>Creative Design</h3>
+              <p>Social media graphics, posters, banners, and thumbnails that communicate effectively.</p>
             </div>
             <div>
-              <h3>Cloud &amp; DevOps</h3>
-              <p>Distributed microservices, containerization, and resilient cloud architectures.</p>
+              <h3>Video &amp; Digital Content</h3>
+              <p>High-engagement reels, promotional videos, and digital storytelling campaigns.</p>
             </div>
           </div>
-          <a class="link" href="https://github.com/dhruv-dev" target="_blank" rel="noopener noreferrer">Explore my GitHub <svg class="m-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8 3l5 5-5 5"/></svg></a>
+          <a class="link" href="#contact" style="font-weight: 600; color: var(--accent);">Get In Touch <svg class="m-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8 3l5 5-5 5"/></svg></a>
         </div>
       </div>
     </section>
@@ -429,15 +492,15 @@
       <div class="closing-sticky">
         <div class="chapter-list">
           <h2 class="chapter chapter--paper" id="next-title">
-            <span class="chapter-text">An app. An idea.<br>A breakthrough.</span>
+            <span class="chapter-text">Creating Ideas.<br>Building Experiences.</span>
           </h2>
           <div class="chapter-wave chapter-wave--rust" aria-hidden="true"></div>
           <p class="chapter chapter--rust">
-            <span class="chapter-text">Let’s make it real.</span>
+            <span class="chapter-text">Making an Impact.</span>
           </p>
           <div class="chapter-wave chapter-wave--dark" aria-hidden="true"></div>
           <p class="chapter chapter--dark">
-            <span class="chapter-text">Start a conversation.</span>
+            <span class="chapter-text">Let’s Create Something Great.</span>
           </p>
         </div>
         <a class="chapter-skip link" href="#contact">Skip to contact <svg class="m-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8 3l5 5-5 5"/></svg></a>
@@ -445,40 +508,41 @@
     </section>
   </main>
 
-  <!-- Footer Section -->
+  <!-- Footer Section: 07 & 08 from docx -->
   <footer class="closing-footer" id="contact" aria-labelledby="contact-title">
     <div class="wrap">
       <div class="footer-contact">
         <div>
-          <h2 id="contact-title">Have something<br>in mind?</h2>
-          <p>For a project, collaboration, or engineering role, let’s talk.</p>
+          <h2 id="contact-title">Have an Idea?<br>Let’s Create Something Great.</h2>
+          <p style="color: var(--close-muted); margin-top: 14px; max-width: 44ch;">Have a project in mind, need a website, or looking for creative digital solutions? I’m always open to discussing interesting ideas and creative collaborations.</p>
+          <p style="color: #60a5fa; font-weight: 500; font-size: 14px; margin-top: 10px;">📍 Lucknow, India</p>
         </div>
-        <a class="contact-email" href="mailto:dhruv@dhruv.dev">dhruv@dhruv.dev <svg class="m-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8 3l5 5-5 5"/></svg></a>
+        <a class="contact-email" href="mailto:dhruvkumar.dev@gmail.com" title="Click to copy email">dhruvkumar.dev@gmail.com <svg class="m-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8 3l5 5-5 5"/></svg></a>
       </div>
       <div class="footer-directory">
         <div class="footer-bio">
-          <p class="footer-small-name">Dhruv</p>
-          <p>Full-stack engineer, AI developer,<br>and systems architect.</p>
+          <p class="footer-small-name">Dhruv Kumar</p>
+          <p style="color: var(--close-muted);">Creating. Designing. Developing.<br>Turning ideas into digital experiences.</p>
         </div>
         <nav aria-label="Footer navigation">
-          <p>Explore</p>
-          <a class="link" href="#work">Selected work</a>
-          <a class="link" href="#stack">My working stack</a>
-          <a class="link" href="#about">About me</a>
+          <p style="color: var(--close-muted); font-size: 13px; font-weight: 600; text-transform: uppercase;">Explore</p>
+          <a class="link" href="#work">Featured Projects</a>
+          <a class="link" href="#capabilities">What I Do</a>
+          <a class="link" href="#skills">My Skills</a>
+          <a class="link" href="#about">About Me</a>
           <a class="link" href="#top">Back to top</a>
         </nav>
         <nav aria-label="Social links">
-          <p>Elsewhere</p>
-          <a class="link" href="https://github.com/dhruv-dev" target="_blank" rel="noopener noreferrer">GitHub <svg class="m-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8 3l5 5-5 5"/></svg></a>
-          <a class="link" href="https://linkedin.com/in/dhruv-dev" target="_blank" rel="noopener noreferrer">LinkedIn <svg class="m-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8 3l5 5-5 5"/></svg></a>
-          <a class="link" href="mailto:dhruv@dhruv.dev">Email me <svg class="m-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8 3l5 5-5 5"/></svg></a>
+          <p style="color: var(--close-muted); font-size: 13px; font-weight: 600; text-transform: uppercase;">Connect</p>
+          <a class="link" href="mailto:dhruvkumar.dev@gmail.com">Email Me <svg class="m-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8 3l5 5-5 5"/></svg></a>
+          <a class="link" href="#top">Portfolio Home <svg class="m-arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M8 3l5 5-5 5"/></svg></a>
         </nav>
       </div>
       <div class="footer-legal">
-        <span>&copy; 2026 Dhruv.dev</span>
-        <span>Full-stack &middot; AI &middot; Systems Architecture</span>
+        <span>&copy; 2026 Dhruv Kumar. All Rights Reserved.</span>
+        <span>Creating Ideas &middot; Building Experiences &middot; Making an Impact</span>
       </div>
-      <p class="footer-monument" aria-hidden="true">Dhruv.dev</p>
+      <p class="footer-monument" aria-hidden="true">Dhruv Kumar</p>
     </div>
   </footer>
 </body>

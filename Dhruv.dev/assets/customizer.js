@@ -5,16 +5,16 @@
  */
 
 (function () {
-  const STORAGE_KEY = 'dhruv_portfolio_data_v1';
+  const STORAGE_KEY = 'dhruv_kumar_portfolio_v2';
 
   const defaultData = {
-    wordmark: 'Dhruv.dev',
-    heroName: 'Dhruv.dev',
-    tagline: 'Full-stack, AI, and systems engineering.',
-    intro: 'I’m Dhruv, a full-stack engineer, AI developer, and systems architect.',
-    email: 'dhruv@dhruv.dev',
-    github: 'https://github.com/dhruv-dev',
-    linkedin: 'https://linkedin.com/in/dhruv-dev'
+    wordmark: 'Dhruv Kumar',
+    heroName: 'Dhruv Kumar',
+    tagline: 'Building Digital Experiences That Make an Impact.',
+    intro: 'I’m Dhruv Kumar, a Multi-Disciplinary Digital Creator passionate about Web Development, Creative Design, and Digital Experiences. I turn ideas into meaningful digital solutions through creativity, technology, and continuous learning.',
+    email: 'dhruvkumar.dev@gmail.com',
+    github: 'https://github.com/dhruvkumar',
+    linkedin: 'https://linkedin.com/in/dhruvkumar'
   };
 
   function loadData() {
